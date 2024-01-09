@@ -39,7 +39,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* what is :root? https://developer.mozilla.org/en-US/docs/Web/CSS/:root */
 :root {
-  --primary: rgb(5, 190, 113);
+  --primary: rgb(255, 87, 26);
   --secondary: rgb(210, 166, 234);
   --primary-variant:  rgb(5, 181, 108);
   --link: rgb(0, 135, 252);
@@ -47,7 +47,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --dark: rgb(45, 43, 43);
   --debug: rgb(239, 6, 72);
   --gray: rgb(223, 222, 223);
-  --demo: rgb(254, 251, 217);
+  --demo: rgb(255, 87, 26);
   --demo-random: rgb(193, 243, 248);
 }
 
@@ -153,7 +153,6 @@ button, a.button {
   color: var(--light);
   background-color: var(--primary);
   border-top: 8px solid var(--secondary);
-  animation: pulse 3s infinite;
 }
 
 #footer .container {
@@ -306,8 +305,7 @@ button, a.button {
 p {
   font-family: 'Arial', Times, sans-serif;
 }
-
 h1 {
-  font-size: 8rem;
+  font-size: 10px;
 }
 
