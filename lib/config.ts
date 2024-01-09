@@ -1,6 +1,6 @@
-export const APP_NAME = 'Starter Kit';
+export const APP_NAME = 'Start Generate';
 export const COURSE_GITHUB = 'https://github.com/digital-product-jam-2024';
-export const COURSE_WELCOME_TEXT = 'Are you ready to feel uncomfortably?';
+export const COURSE_WELCOME_TEXT = 'Are you ready to feel uncomfortable?';
 export const COURSE_CREDITS = 'Digital Product Jam 2023-2024';
 
 export const DEMOS_ENABLED = process.env.DEMOS_ENABLED === 'true' ? true : false;
