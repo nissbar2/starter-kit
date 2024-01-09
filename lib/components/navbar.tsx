@@ -8,15 +8,6 @@ export default function Navbar() {
         <div className="app-name align-center">
           <Link href="/">{APP_NAME}</Link>
         </div>
-        <div className="align-center flex-end">
-          <ul>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href={COURSE_GITHUB} target="_blank">GitHub</Link></li>
-            {DEMOS_ENABLED ? <li><Link href="/demos">Demos</Link></li> : null}
-            {GENERATE_ENABLED ? <li><Link href="/generate">Generate</Link></li> : null}
-
-          </ul>
-        </div>
       </div>
     </div>
   )
