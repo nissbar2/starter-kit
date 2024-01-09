@@ -303,3 +303,11 @@ button, a.button {
   background-color: var(--demo);
   font-size: 0.875rem;
 }
+p {
+  font-family: 'Arial', Times, sans-serif;
+}
+
+h1 {
+  font-size: 8rem;
+}
+

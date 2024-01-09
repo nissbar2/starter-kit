@@ -1,9 +1,11 @@
 export const APP_NAME = 'Starter Kit';
 export const COURSE_GITHUB = 'https://github.com/digital-product-jam-2024';
-export const COURSE_WELCOME_TEXT = 'Hey there, and welcome! Read the source code, and navigate to the demos.';
+export const COURSE_WELCOME_TEXT = 'Are you ready to feel uncomfortably?';
 export const COURSE_CREDITS = 'Digital Product Jam 2023-2024';
 
 export const DEMOS_ENABLED = process.env.DEMOS_ENABLED === 'true' ? true : false;
+export const GENERATE_ENABLED = process.env.GENERATE_ENABLED === 'true' ? true : false;
+
 export const DEMOS = [
   {
     title: 'Blank',
@@ -31,6 +33,20 @@ export const DEMOS = [
   }
 ];
 
+export const GENERATE = [
+  {
+    title: 'Hero',
+    slug: '/demos/00_blank',
+    description: 'Generate a superhero',
+    cssClass: 'demo-blank',
+  },
+  {
+    title: 'Horror Story',
+    slug: '/demos/01_contact',
+    description: 'Generate a horror story.',
+    cssClass: 'demo-contactForm',
+  }
+];
 export const EMAIL_ADDRESS = process.env.EMAIL_ADDRESS || '';
 export const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD || '';
 export const EMAIL_HOST = process.env.EMAIL_HOST || '';
