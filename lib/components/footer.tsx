@@ -6,9 +6,6 @@ export default function Footer() {
     <footer id="footer">
       <div className="container">
         <div className="center">
-          This is some example footer content.
-        </div>
-        <div className="center">
           {/*<AuthAction />*/}
         </div>
         <div className="center text-sm">
